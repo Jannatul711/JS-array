@@ -17,8 +17,13 @@
 // fruits.pop();
 // console.log(fruits); removes the last element of an array.
 
-const fruit = ["Banana", "Orange", "Apple", "Mango"];
-fruit.shift();
-console.log(fruit);
+// const fruit = ["Banana", "Orange", "Apple", "Mango"];
+// fruit.shift();
+// console.log(fruit);
 // removes the first item of an array.
 
+const fruit = ["Banana", "Orange", "Apple", "Mango"];
+// fruit.includes("Apple");
+// console.log(fruit.includes("Apple"));
+
+console.log(Array.isArray(fruit));
